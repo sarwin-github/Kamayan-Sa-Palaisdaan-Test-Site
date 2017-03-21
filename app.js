@@ -27,8 +27,8 @@ app.use('/js', express.static(__dirname + '/node_modules/bootstrap/dist/js')); /
 app.use('/js', express.static(__dirname + '/node_modules/jquery/dist')); // redirect JS jQuery
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css')); // redirect CSS bootstrap
 app.use('/fonts/', express.static(__dirname + '/node_modules/bootstrap/dist/fonts'));
-//app.use('/fonts/', express.static(__dirname + './font-awesome/fonts'));
-//app.use('/css/', express.static(__dirname + './font-awesome/css'));
+app.use('/fonts/', express.static(__dirname + '/node_modules/font-awesome/fonts'));
+app.use('/css/', express.static(__dirname + '/node_modules/font-awesome/css'));
 
 app.use('/', index);
 

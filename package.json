@@ -12,6 +12,7 @@
     "debug": "~2.6.0",
     "ejs": "~2.5.5",
     "express": "~4.14.1",
+    "font-awesome": "^4.7.0",
     "morgan": "~1.7.0"
   },
   "devDependencies": {
