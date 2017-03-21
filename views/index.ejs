@@ -23,7 +23,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background:url('public/images/nav-background2.jpg');
+    background:url('/public/images/nav-background2.jpg');
     background-size: 100%;
     background-repeat: repeat-y;
     z-index:-1;
@@ -50,51 +50,7 @@
       <div>
         <div class="col-md-12">
           <div class="col-sm-12">
-            <div class="col-sm-4">
-              <img src="/public/images/kamayanLogo2.png" class="img-responsive" />
-              <ul class="list-group">
-                <li  class="list-group-item"><img src="/public/images/foods.jpg" class="img-thumbnail img-responsive" width="340" /></li>
-                <li  class="list-group-item"><img src="/public/images/floating.jpg" class="img-thumbnail img-responsive" width="340" /></li>
-                <li  class="list-group-item"><img src="/public/images/southeast-asia-philippines-quezon-tayabas-kamayan-sa-palaisdaan-5.jpg" class="img-thumbnail img-responsive" width="340" /></li>
-                <li  class="list-group-item"><img src="/public/images/palaisdaan2.jpg" class="img-thumbnail img-responsive" width="340" /></li>
-                <li class="list-group-item">
-                  <div class="text-center">
-                  <legend>Follow us on</legend>
-                    <span class="fa-stack fa-lg">
-                      <a>
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                        <i class="fa fa-twitter fa-stack-1x"></i>
-                      </a>
-                    </span>
-                    <span class="fa-stack fa-lg">
-                      <a>
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                        <i class="fa fa-facebook fa-stack-1x"></i>
-                      </a>
-                    </span>
-                    <span class="fa-stack fa-lg">
-                      <a>
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                        <i class="fa fa-yahoo fa-stack-1x"></i>
-                      </a>
-                    </span>
-                    <span class="fa-stack fa-lg">
-                      <a>
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                        <i class="fa fa-google fa-stack-1x"></i>
-                      </a>
-                    </span>
-                    <span class="fa-stack fa-lg">
-                      <a>
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                        <i class="fa fa-linkedin fa-stack-1x"></i>
-                      </a>
-                    </span>
-                  </div>
-                </li>
-              </ul>
-
-            </div>
+            <% include templates/sidebar-social.ejs%>
             <% include templates/description.ejs%>
           </div>
         </div>   
