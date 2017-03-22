@@ -1,0 +1,54 @@
+<table class="table table-responsive table-hover">
+                <thead>
+                  <tr class="text-center" style="background-color:rgba(141, 198, 177,0.90); color: whitesmoke">
+                    <th>
+                    </th>
+                    <th style="font-size: 20px;">SEA FOODS</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                 <% data.forEach(function(item){%>
+                  <% if( item.categories == "Seafoods"){ %>
+                    <tr>
+                      <td class="text-center" style="width: 40px; font-size:30px;">
+                        <span class="fa fa-cutlery"></span>
+                      </td>
+                      <td style="padding-top:20px;">
+                        <b><%= item.name %></b>
+                      </td>
+                      <td style="padding-top:20px;">
+                        &#8369; <%= item.price %>.00
+                      </td>
+                    </tr> 
+                    <% } %>
+                    <%});%>
+                 </tbody>
+
+               <thead>
+                <tr class="text-center" style="background-color:rgba(141, 198, 177,0.90); color: whitesmoke">
+                  <th>
+                  </th>
+                  <th style="font-size: 20px;">MEAT</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+               <% data.forEach(function(item){%>
+                <% if( item.categories == "Meat"){ %>
+                  <tr>
+                    <td class="text-center" style="width: 40px; font-size:30px;">
+                      <span class="fa fa-cutlery"></span>
+                    </td>
+                    <td style="padding-top:20px;">
+                      <b><%= item.name %></b>
+                    </td>
+                    <td style="padding-top:20px;">
+                      &#8369; <%= item.price %>.00
+                    </td>
+                  </tr> 
+                  <% } %>
+             <%});%>
+             </tbody>
+
+           </table>

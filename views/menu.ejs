@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title><%= title %></title>
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/bootstrap.css">
@@ -39,6 +42,25 @@
     border-bottom:1px solid;
     padding: 3px;"
   }
+  .container-text{
+    margin: 10px;
+  }
+  .container-image{
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    padding: 5px;
+  }
+  .rightcol {
+   /* border:solid 1px red;
+   position: relative;
+   top: 0%;
+   left: 50%;  */
+   border:solid 1px red; 
+   overflow-y: scroll;
+   height: 1000px;
+  }
+
 </style>
 </head>
 <body style="background:url('/public/images/nav-background2.jpg')">
@@ -49,41 +71,39 @@
       <% include templates/banner-carousel.ejs%>
       <div>
         <div class="col-md-12">
-          <div class="col-sm-12">
-            <% include templates/sidebar-social.ejs%>
+          <% include templates/sidebar-social.ejs%>
+          <br>
 
-            <% for(var i = 0;i < data.length;i++) {%>
-              <ul class="">
-                <li><%= data[i].name %></li>
-                <li><%= data[i].price %></li>
-                <li><%= data[i].categories %></li>
-              </ul>
-            <%}%>
+          <div class="col-md-8 rightcol">
+            <div class="jumbotron" style="background-color: rgba(255,255,255,0.50);">
+              <h2><strong>About Our Menu</strong></h2>
+              <div class="container-image"> <img src="/public/images/menubanner.jpg" class="img-thumbnail img-responsive" width="250" /></div>
+              <div class="container-text"><p style="font-size: 15px; text-align: justify;">The menu consists mostly of fish, since Tayabas is known for their light and delectable seafood compared to Lucban's meat fest. Big winners are the Inihaw na Pla-Pla (also known as tilapia), and the inihaw na Hito. All his cooks are native chefs, so one can expect an authentic taste of Tayabas in their dishes. Other dishes, worthy of praise are the Inihaw na Spare Ribs, Squid in Oyster Sauce, and their own version of Salpicao (mixed vegatable & seafoods).
+                <br><br>
 
-          </div>
-        </div>   
-      </div> 
-    </div>
-    <br>
-    <div id="map" style="width:100%; height: 300px"></div>
+                Native designed function rooms for Cocktail parties, Conference, Wedding, Birthday and other Private Occasions. Formal and informal dining with lush appurtenances and grand artistically rendered interior furnishing and decor. When enjoying a banquet the surroundings and ambiance of the place transports one to the heady confines of the sophisticate and formal good graces inclined. </p> </div>
 
-    <script>
-      function initMap() {
-        var uluru = {lat: 14.0616, lng: 121.5721};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 11,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmYO1nfXEKwBDkGBSOr-bpqyKvOFRR2N4&callback=initMap">
-    </script>
+                <div class="text-right">
+                  <br>
+                  <button type="button" class="btn btn-default">
+                    Check out our menu packages&nbsp; <span class="glyphicon glyphicon-chevron-right"></span>
+                  </button>
+                </div>
+              </div>
 
-  </div>
+              <!-- Temporary Table Since aggregate is not yet working-->
+              <% include templates/menu-table-temp.ejs %>
+         </div>
+       </div>   
+     </div> 
+   </div>
+   <br>
+
+
+
+
+
+ </div>
 
 </body>
 </html>
