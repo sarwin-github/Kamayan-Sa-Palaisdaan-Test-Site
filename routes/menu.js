@@ -8,13 +8,13 @@ var Menu = mongoose.model('Menu');
 router.get('/list', function(request, response, next) {
 	var query = Menu.find({});
 
-	var groupby = Menu.aggregate(
-	[{
-	  $group: {
-	     "_id": "$categories", 
-	      "item": { $push: {"name": "$name", "price": "$price"}},
-	  }
-	}]);
+	//var groupby = Menu.aggregate(
+	//[{
+	//  $group: {
+	//     "_id": "$categories", 
+	//      "item": { $push: {"name": "$name", "price": "$price"}},
+	//  }
+	//}]);
 
 	query.exec((error, menu) => {
 		if (error) {	
