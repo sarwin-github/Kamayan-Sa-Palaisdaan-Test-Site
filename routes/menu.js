@@ -16,7 +16,15 @@ router.get('/list', function(request, response, next) {
 	//  }
 	//}]);
 
+
 	query.exec((error, menu) => {
+		
+		var menuChunks = [];
+		var chunkSize = 3;
+		for (var i = 0; i < menu.length; i += chunkSize) {
+			menuChunks.push(menu.slice(i, i + chunkSize));
+		}
+		
 		if (error) {	
 			return response.status(500).send({success: false, error: error, message: 'Something went wrong.'});
 		} 

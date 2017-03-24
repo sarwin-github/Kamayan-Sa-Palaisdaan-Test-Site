@@ -10,10 +10,10 @@ var mongoose = require('mongoose')
 var index = require('./routes/index');
 var menu = require('./routes/menu');
 
-
+var mongoConnectionOnline = 'mongodb://kamayansapalaisdaanuser:01610715@ds141410.mlab.com:41410/kamayansapalaisdaan'
 var mongoConnectionLocal  = 'mongodb://localhost:27017/AuctionDB';
 mongoose.Promise = global.Promise;
-mongoose.connect(mongoConnectionLocal, (error, database) => { if(error) { console.log(error); }});
+mongoose.connect(mongoConnectionOnline, (error, database) => { if(error) { console.log(error); }});
 
 var app = express();
 

@@ -1,0 +1,866 @@
+{  
+   "name":"Ginataang Sugpo",
+   "price":230,
+   "categories":"Seafoods",
+   "status":"available"
+},
+{  
+   "name":"Steam na Sugpo",
+   "price":205,
+   "categories":"Seafoods",
+   "status":"available"
+},
+{  
+   "name":"Ginataang Pusit",
+   "price":185,
+   "categories":"Seafoods",
+   "status":"available"
+},
+{  
+   "name":"Inihaw na Pusit",
+   "price":175,
+   "categories":"Seafoods",
+   "status":"available"
+},
+{  
+   "name":"Kare-Kare Seafoods",
+   "price":230,
+   "categories":"Seafoods",
+   "status":"available"
+},
+{  
+   "name":"Sweet and Sour Shrimp",
+   "price":205,
+   "categories":"Seafoods",
+   "status":"available"
+},
+{  
+   "name":"Camaron",
+   "price":140,
+   "categories":"Seafoods",
+   "status":"available"
+},
+{  
+   "name":"Calamares",
+   "price":130,
+   "categories":"Seafoods",
+   "status":"available"
+},
+{  
+   "name":"Kare-Kare Tuna",
+   "price":85,
+   "categories":"Seafoods",
+   "status":"available"
+},
+{  
+   "name":"Inihaw na Pla-Pla",
+   "price":175,
+   "categories":"Seafoods",
+   "status":"available"
+},
+{  
+   "name":"Prito na Pla-Pla",
+   "price":200,
+   "categories":"Seafoods",
+   "status":"available"
+},
+{  
+   "dateUpdated":"2017-03-22T07:59:15.837Z",
+   "name":"Ginataan na Pla-Pla",
+   "price":230,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T07:59:54.193Z",
+   "name":"Sinugno na Pla-Pla",
+   "price":220,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:00:07.985Z",
+   "name":"Sweet and Sour na Pla-Pla",
+   "price":230,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:00:16.470Z",
+   "name":"Steam Pla-Pla",
+   "price":205,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:01:26.270Z",
+   "name":"Pinaputok na Pla-Pla",
+   "price":205,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:01:31.283Z",
+   "name":"Sinigang na Pla-Pla",
+   "price":205,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:01:40.761Z",
+   "name":"Inihaw na Hito",
+   "price":190,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:01:57.243Z",
+   "name":"Pritong Hito",
+   "price":210,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:02:04.754Z",
+   "name":"Ginataan Hito",
+   "price":230,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:02:17.114Z",
+   "name":"Sweet and Sour Lapu-Lapu",
+   "price":70,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:08:58.930Z",
+   "name":"Sinigang na Lapu-Lapu",
+   "price":70,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:09:06.101Z",
+   "name":"Ginataan Alimango",
+   "price":90,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:09:11.889Z",
+   "name":"Alimango con Chili",
+   "price":90,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:09:18.836Z",
+   "name":"Sotanghon Soup with Alimango",
+   "price":85,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:09:28.266Z",
+   "name":"Steam Alimango",
+   "price":80,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:09:35.824Z",
+   "name":"Sinigang na Pampano",
+   "price":65,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:09:43.714Z",
+   "name":"Steam na Pampano",
+   "price":65,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:09:51.685Z",
+   "name":"Sinuam na Pampano",
+   "price":65,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:09:59.001Z",
+   "name":"Ginisa na Pampano sa Tausi with Kamatis",
+   "price":65,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:10:03.686Z",
+   "name":"Inihaw na Pampano",
+   "price":65,
+   "categories":"Seafoods",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:33:14.049Z",
+   "name":"Beef Caldereta",
+   "price":215,
+   "categories":"Meat",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:33:23.070Z",
+   "name":"Beef Steak",
+   "price":150,
+   "categories":"Meat",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:33:30.877Z",
+   "name":"Beef Tapa",
+   "price":150,
+   "categories":"Meat",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:33:39.656Z",
+   "name":"Chicken Pork Adobo",
+   "price":205,
+   "categories":"Meat",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:33:46.790Z",
+   "name":"Tinolang Manok",
+   "price":185,
+   "categories":"Meat",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:33:54.611Z",
+   "name":"Sinampalukang Manok",
+   "price":180,
+   "categories":"Meat",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:34:03.105Z",
+   "name":"Chicken ala King",
+   "price":150,
+   "categories":"Meat",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:34:12.246Z",
+   "name":"Chicken Ginataan",
+   "price":145,
+   "categories":"Meat",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:34:21.225Z",
+   "name":"Chicken Adobo",
+   "price":150,
+   "categories":"Meat",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:34:31.091Z",
+   "name":"Fried Chicken",
+   "price":140,
+   "categories":"Meat",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T08:34:38.808Z",
+   "name":"Chicken Barbecue",
+   "price":140,
+   "categories":"Meat",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:10:01.597Z",
+   "name":"Chopsuey",
+   "price":125,
+   "categories":"Vegetables",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:10:10.329Z",
+   "name":"Pinakbet",
+   "price":120,
+   "categories":"Vegetables",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:10:19.539Z",
+   "name":"Ampalaya con Hipon",
+   "price":125,
+   "categories":"Vegetables",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:10:28.767Z",
+   "name":"Ampalaya con Carne",
+   "price":185,
+   "categories":"Vegetables",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:10:41.587Z",
+   "name":"Mixed Steam Vegetable",
+   "price":45,
+   "categories":"Vegetables",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:10:58.110Z",
+   "name":"Steam Okra",
+   "price":40,
+   "categories":"Vegetables",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:11:06.864Z",
+   "name":"Talong",
+   "price":40,
+   "categories":"Vegetables",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:11:13.092Z",
+   "name":"Steam Kangkong",
+   "price":40,
+   "categories":"Vegetables",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:11:20.279Z",
+   "name":"Pinangat",
+   "price":55,
+   "categories":"Vegetables",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:35:08.014Z",
+   "name":"Tanigue",
+   "price":205,
+   "categories":"Appetizer",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:35:16.537Z",
+   "name":"Blue Marlin Steak",
+   "price":175,
+   "categories":"Appetizer",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:35:24.846Z",
+   "name":"Sizzling Seafoods",
+   "price":230,
+   "categories":"Appetizer",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:35:39.111Z",
+   "name":"Sizzling Gambas",
+   "price":180,
+   "categories":"Appetizer",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:35:47.892Z",
+   "name":"Sizzling Salpicao",
+   "price":175,
+   "categories":"Appetizer",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:35:55.231Z",
+   "name":"Sizzling Chicken",
+   "price":160,
+   "categories":"Appetizer",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:36:03.974Z",
+   "name":"Sizzling Sisig",
+   "price":150,
+   "categories":"Appetizer",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:36:14.234Z",
+   "name":"Sizzling Pusit",
+   "price":150,
+   "categories":"Appetizer",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:41:47.735Z",
+   "name":"Vegetable Salad",
+   "price":125,
+   "categories":"Salad",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:42:31.764Z",
+   "name":"Mango Salad",
+   "price":90,
+   "categories":"Salad",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:42:38.106Z",
+   "name":"Sliced Green Mango",
+   "price":35,
+   "categories":"Salad",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:42:44.500Z",
+   "name":"Kilawin Labanos",
+   "price":35,
+   "categories":"Salad",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:43:01.193Z",
+   "name":"Toasted Canton with Chopsuey",
+   "price":160,
+   "categories":"Pancit",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:43:15.861Z",
+   "name":"Pancit Canton",
+   "price":100,
+   "categories":"Pancit",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:43:25.154Z",
+   "name":"Pancit Lucban",
+   "price":95,
+   "categories":"Pancit",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:43:40.217Z",
+   "name":"Porkchop",
+   "price":240,
+   "categories":"Ihaw-Ihaw",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:43:48.931Z",
+   "name":"Spareribs",
+   "price":235,
+   "categories":"Ihaw-Ihaw",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:43:56.461Z",
+   "name":"Panga ng Tuna",
+   "price":70,
+   "categories":"Ihaw-Ihaw",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:44:06.739Z",
+   "name":"Inihaw na Tuna Belly",
+   "price":70,
+   "categories":"Ihaw-Ihaw",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:44:20.513Z",
+   "name":"Plain",
+   "price":20,
+   "categories":"Rice",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:44:26.235Z",
+   "name":"Garlic",
+   "price":30,
+   "categories":"Rice",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:44:34.349Z",
+   "name":"Fried",
+   "price":40,
+   "categories":"Rice",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:56:40.410Z",
+   "name":"Leche Flan",
+   "price":90,
+   "categories":"Dessert",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:56:48.357Z",
+   "name":"Buko Salad",
+   "price":70,
+   "categories":"Dessert",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:56:57.468Z",
+   "name":"Fruit Salad",
+   "price":50,
+   "categories":"Dessert",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:57:06.358Z",
+   "name":"Sliced Mango Ripe",
+   "price":35,
+   "categories":"Dessert",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:57:20.597Z",
+   "name":"Sugpo",
+   "price":215,
+   "categories":"Soup/ Sinigang",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:57:28.914Z",
+   "name":"Talakitok",
+   "price":180,
+   "categories":"Soup/ Sinigang",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:57:41.014Z",
+   "name":"Baboy",
+   "price":170,
+   "categories":"Soup/ Sinigang",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:57:49.502Z",
+   "name":"Tiyan ng Bangus",
+   "price":150,
+   "categories":"Soup/ Sinigang",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:57:57.373Z",
+   "name":"Blue Marlin Belly",
+   "price":70,
+   "categories":"Soup/ Sinigang",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:58:07.818Z",
+   "name":"Hototay Soup",
+   "price":125,
+   "categories":"Soup/ Sinigang",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:58:16.017Z",
+   "name":"Tuna Belly",
+   "price":70,
+   "categories":"Soup/ Sinigang",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:58:51.545Z",
+   "name":"Beer (each)",
+   "price":35,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:59:06.364Z",
+   "name":"Shake",
+   "price":35,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:59:14.828Z",
+   "name":"Halo-Halo",
+   "price":35,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:59:22.106Z",
+   "name":"Mais Con Yelo",
+   "price":30,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:59:26.864Z",
+   "name":"Buko Fresh",
+   "price":30,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:59:38.095Z",
+   "name":"Sago Pearl Shake",
+   "price":35,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T10:59:50.854Z",
+   "name":"Softdrinks",
+   "price":32,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:01:06.251Z",
+   "name":"Juice",
+   "price":35,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:01:18.589Z",
+   "name":"Mineral Water",
+   "price":35,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:01:28.739Z",
+   "name":"Hot Tea",
+   "price":18,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:01:33.225Z",
+   "name":"Coffee",
+   "price":18,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:01:43.558Z",
+   "name":"Iced Tea",
+   "price":25,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:01:52.043Z",
+   "name":"Lemonade",
+   "price":25,
+   "categories":"Beverages",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:02:20.524Z",
+   "name":"Kinulob na Palos",
+   "price":350,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:02:33.264Z",
+   "name":"Pata Tim",
+   "price":280,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:02:41.138Z",
+   "name":"Hardinera",
+   "price":195,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:02:48.830Z",
+   "name":"Kare-Kare",
+   "price":165,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:03:01.354Z",
+   "name":"Fish Fillet",
+   "price":160,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:03:12.691Z",
+   "name":"Letson Kawali",
+   "price":140,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:03:21.213Z",
+   "name":"Burger Steak",
+   "price":140,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:03:28.896Z",
+   "name":"Sweet and Sour Pork",
+   "price":130,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:03:35.611Z",
+   "name":"Menudencia",
+   "price":125,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:03:42.684Z",
+   "name":"Asado",
+   "price":95,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:03:49.457Z",
+   "name":"Lumpiang Shanghai",
+   "price":80,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:03:56.843Z",
+   "name":"Boneless Bangus",
+   "price":170,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:04:04.878Z",
+   "name":"Ginataang Suso with Pako",
+   "price":100,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+},
+{  
+   "dateUpdated":"2017-03-22T11:04:14.894Z",
+   "name":"Ensaladang Pako",
+   "price":90,
+   "categories":"Other Menu",
+   "status":"Available",
+   "__v":0
+}
