@@ -12,36 +12,11 @@
   <script src="/js/bootstrap.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <style type="text/css">
-   body{
-    background-color: pink;
-  }
+
   .navbar-brand{
     padding-bottom: 50px;
   }
-
-  .background:before {
-    content:'';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background:url('public/images/nav-background2.jpg');
-    background-size: 100%;
-    background-repeat: repeat-y;
-    z-index:-1;
-  }
-
-  .shadow-box{
-    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.60);
-    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.60);
-    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.60);
-  }
-
-  .menu-style{
-    border-bottom:1px solid;
-    padding: 3px;"
-  }
+ 
   .container-text{
     margin: 10px;
   }
@@ -52,18 +27,21 @@
     padding: 5px;
   }
   .rightcol {
-   /* border:solid 1px red;
-   position: relative;
-   top: 0%;
-   left: 50%;  
-   border:solid 1px red; */
    overflow-y: scroll;
-   height: 1000px;
+   height: 1200px;
+  }
+
+  .kamayanBG{
+    background:url('/public/images/nav-background2.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: right top; 
+    background-attachment: fixed;  
+    
   }
 
 </style>
 </head>
-<body style="background:url('/public/images/nav-background2.jpg')">
+<body class="kamayanBG">
   <div class="container" style="background-color:rgba(255, 255, 255, 0.8)">
     <div class="row">
       <% include templates/navbar.ejs%>
@@ -98,7 +76,11 @@
      </div> 
    </div>
    <br>
-
+   <div>
+     <div class="row">
+     <% include templates/footer2.ejs%>
+     </div>
+   </div>
 
 
 
