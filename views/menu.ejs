@@ -69,6 +69,15 @@
                 </div>
               </div>
 
+              <form role="search">
+                <div class="input-group">
+                  <input type="search" class="form-control" placeholder="Search Our Menu" name="search" ng-model="search">
+                  <span class="input-group-addon" style="background-color:#c7d8c3; border:none;">
+                    <i class="glyphicon glyphicon-search" style="color:white; width:20px"></i>
+                  </span>
+                </div>
+              </form>
+               <br>
               <!-- Temporary Table Since aggregate is not yet working-->
               <% include templates/menu-table-temp.ejs %>
          </div>
@@ -81,11 +90,6 @@
      <% include templates/footer2.ejs%>
      </div>
    </div>
-
-
-
-
  </div>
-
 </body>
 </html>

@@ -9,6 +9,7 @@ var mongoose = require('mongoose')
 //include routes
 var index = require('./routes/index');
 var menu = require('./routes/menu');
+var about = require('./routes/about');
 
 var mongoConnectionOnline = 'mongodb://kamayansapalaisdaanuser:01610715@ds141410.mlab.com:41410/kamayansapalaisdaan'
 var mongoConnectionLocal  = 'mongodb://localhost:27017/AuctionDB';
@@ -38,7 +39,7 @@ app.use('/css/', express.static(__dirname + '/node_modules/font-awesome/css'));
 
 app.use('/menu', menu);
 app.use('/', index);
-
+app.use('/', about);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

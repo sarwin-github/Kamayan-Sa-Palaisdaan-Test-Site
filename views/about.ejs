@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/font-awesome.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    .container-text{
+      margin: 10px;
+    }
+    .container-image{
+      float: left;
+      margin-right: 20px;
+      width: 385px;
+      padding: 5px;
+      margin-bottom: 20px;
+    }
+
+    .navbar-brand{
+      padding-bottom: 50px;
+    }
+
+    .kamayanBG{
+      background:url('public/images/nav-background2.jpg');  
+      background-repeat: no-repeat; 
+      background-position: right top; 
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body class="kamayanBG">
+  <div class="container" style="background-color:rgba(255, 255, 255, 0.8)">
+    <div class="row">
+      <% include templates/navbar.ejs%>
+      <% include templates/navbar-second.ejs%>
+      <% include templates/banner-carousel.ejs%>
+      <div>
+        <div class="col-sm-12">
+          <br>
+          <div class="col-sm-9" style="background-color:rgba(255,255,255, 0.4)">
+            <br>
+            <div class="container-image"><img src="/public/images/Swimming-Pool-at-Kamayan-sa-Palaisdaan-Resort.jpg" class="img-thumbnail img-responsive" width="385" /> </div> 
+            <div class="text-center">
+              <h2 class="container-text">About Kamayan Sa Palaisdaan </h2><h3>Restaurant, Hotel and Resort</h3>
+              <span class="label label-warning">#Destination</span>
+              <span class="label label-warning">#Asia</span>
+              <span class="label label-warning">#Hotels</span>
+              <span class="label label-warning">#Restaurant</span>
+              <span class="label label-warning">#Philippines</span>
+
+            </div> 
+            <p class="text-left" style="text-align:justify; font-size: 16px">     <br>       Kamayan sa Palaisdaan Restaurant Hotel and Resort is nestled at Barangay Dapdap, Tayabas City, Quezon, Philippines. An excellent choice for urban-bred travelers, Kamayan sa Palaisdaan Restaurant Hotel and Resort offers a tranquil and exclusive getaway not too far from the metro. It overlooks the scenic Mt. Banahaw and the city lights of Tayabas Bay.  It has modern facilities and quality services. This haven has an outdoor swimming pool and zipline perfect for guests seeking fun and adventure. Kamayan sa Palaisdaan also has spacious function halls and conference rooms that are supplied with modern equipments perfect for business travelers. The Kamayan sa Palaisdaan Restaurant is a mecca for seafood lovers as it serves scrumptious fresh seafoods and other Filipino favorites in a serene atmosphere.
+
+              Kamayan sa Palaisdaan Restaurant Hotel and Resort offers air-conditioned rooms that are furnished with an ultra-comfortable bed with crisp linens, TV with cable programming, other standard room amenities such as towels and toiletries, and a private toilet and bath with hot and cold shower. All rooms exudes warmth and coziness sure to give off a comfortable and relaxing night's sleep. Room types include Rest House, Villa rooms, Dormitory rooms, and Standard and Deluxe rooms.
+
+              This sanctuary is conveniently located just over 128 km away from the Ninoy Aquino International Airport via the Curry Avenue in Candelaria. Travel time is approximately 3 hours.
+              <hr>
+
+              <div class="panel">
+                <div class="panel-heading" 
+                style="background-color: rgba(91, 99, 86, 0.7); 
+                color: whitesmoke; 
+                padding-top: 2px; 
+                padding-bottom: 2px;"><h4>Reviews of Kamayan Sa Palaisdaan Lucban Quezon</h4></div>
+                <div class="panel-body" style="background:rgba(255,255,244, 0.8)">
+                  <h3>"relaxing stay at osaka 2" <label class="pull-right"> <h4> <span class="glyphicon glyphicon-calendar"></span> December 27, 2015</h4></label></h3> 
+
+                  <p><span class="glyphicon glyphicon-user"></span> Ernie Belonnie <span class="pull-right"> Price 5 | Cleanliness 5 | Location 5 | Facilities 5 | Food 5 | Service 5</span> </p>
+                </div>
+                <div class="panel-footer">We had a great stay at the hotel.  We were allowed to check-in early at 10am although our scheduled check-n as per reservation is 2pm. Inspite of continuous rains during our stay, we nevertheless enjoyed our overnight stay, I will surely visit kamayan sa palaisdaan again in the near future.
+                  <br><br>
+                  <b>3 Things You Love about This Hotel</b>: good service, clean rooms, nice location<br>
+                  <b>Room:</b> Standard Room (With Breakfast) - Standard Room<br>
+                  <b>Stay Date:</b> 12/26/2014 to 12/27/2014</div><br>
+                </div>
+
+                <div class="well">
+                <h4 class="text-left">Write a review & earn a discounts!
+                  Your feedback is important to us! Your review will appear on the site once approved by Moderator.</h4>
+                  <form>
+
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="inputEmail" placeholder="Subject">
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="inputEmail" placeholder="Full Name">
+                    </div>
+
+                    <textarea class="form-control" rows="5"></textarea><br>
+                    <div class="text-right">
+                    <button style="color: #ffffff; background-color:rgb(91, 99, 86); border-color: transparent; padding: 10px;">Write a Review   <span class="glyphicon glyphicon-chevron-right"></span></button> 
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+              <div class="col-sm-3">
+                <div class="text-right"><img src="/public/images/plenty-of-good-and-different.jpg" class="img-thumbnail img-responsive" /><hr>
+                  <p>Located in Tayabas, Quezon, KAMAYAN SA PALAISDAAN is an ideal getaway restaurant for seafood lovers. The restaurant is a little hard to find - save for a sign that is lit up</p>
+                  <button style="color: #ffffff; background-color:rgb(91, 99, 86); border-color: transparent; padding: 10px;">Read More <span class="glyphicon glyphicon-chevron-right"></span></button></div>
+                  <br>
+                  <div class="text-right"><img src="/public/images/Sinugno.jpg" class="img-thumbnail img-responsive" /><hr>
+                    <p>We have variety of foods to choose from, vegetables, meet, fruits, etc. </p>
+                    <button style="color: #ffffff; background-color:rgb(91, 99, 86); border-color: transparent; padding: 10px;">Read More <span class="glyphicon glyphicon-chevron-right"></span></button></div>
+
+                  </div>
+
+                </div>
+              </div> 
+            </div>
+            <br>
+            <div class="row">
+              <% include templates/footer2.ejs%>
+            </div>
+          </div>
+
+        </div>
+
+      </body>
+      </html>
